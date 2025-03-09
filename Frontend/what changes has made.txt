@@ -1,0 +1,10 @@
+Created a users array to store user credentials (username and password) temporarily in memory.
+Updated the Signup component to push new user credentials into the users array.
+Removed alert() method and used setSuccess() method.
+In the Signup component, added a check to ensure the username is not already taken by searching the users array.
+Displayed an error message if the username already exists.
+Modified the Signin component to validate entered credentials against the users array.
+If a match is found, the user is authenticated (a dummy token is stored in localStorage).
+If no match is found, an error message is displayed.
+The user is redirected to the dashboard.
+Some more UI part improved like placeholder changed, label added for input tags etcs.
